@@ -28,9 +28,9 @@ clf;
 
 // Given parameters (changed values)
 Gt = 45;          // Transmit antenna gain (was 40)
-Gr = 30;          // Receive antenna gain (was 35)
-l = 0.05;         // Wavelength (was 0.04)
-s = 2.5;          // Radar cross-section (was 3)
+Gr = 35;          // Receive antenna gain (was 35)
+l = 0.04;         // Wavelength (was 0.04)
+s =3;          // Radar cross-section (was 3)
 Pm = 5e-11;       // Minimum detectable power (was 1e-10)
 K = (4 * %pi)^3;  // Constant
 
@@ -85,7 +85,7 @@ xgrid();
 <img width="1692" height="859" alt="image" src="https://github.com/user-attachments/assets/84e0f8a2-405c-47bd-bbb9-97f82a5550d0" />
 
 ## MANUAL CALCULATION
-![WhatsApp Image 2025-11-11 at 16 29 02_9fdf034b](https://github.com/user-attachments/assets/a0ea98c5-0e3f-42a3-b5fc-aaa101721aac)
+![WhatsApp Image 2025-11-14 at 13 13 49_fdac9c6d](https://github.com/user-attachments/assets/22b2c279-8639-4be8-aacd-cc43c0d7e87b)
 
 ## RESULT
 Thus, the maximum range of a radar system using the Radar Range Equation is verified through a Scilab program.
